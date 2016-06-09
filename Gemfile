@@ -43,7 +43,7 @@ gem 'devise', '3.4.1'
 # Credit Card Payments gem
 gem 'stripe', '1.16.1'
 
-# Use figaro to hid secret keys
+# Use figaro to hide secret keys
 gem 'figaro', '1.0.0'
 
 # Use ActiveModel has_secure_password
