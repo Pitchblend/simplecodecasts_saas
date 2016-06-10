@@ -4,7 +4,7 @@ class ProfilesController < ApplicationController
         # Determine who is logged in.
         @user = User.find( params[:user_id])
         # Build form
-        @profile = @user.build_profile
+        @profile = Profile.new
     end
     
     def create
