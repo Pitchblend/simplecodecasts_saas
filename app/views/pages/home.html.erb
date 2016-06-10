@@ -1,5 +1,5 @@
 <!-- Only show create profile link if a user is logged in.     current_user     evaluates to true only if a user is logged in -->
-%= link_to "Create your profile!", new_user_profile_path(current_user) if current_user %>
+<%= link_to "Create your profile!", new_user_profile_path(current_user) if current_user %>
 <div class="jumbotron text-center">
     
     <h1>Welcome to Dev Match</h1>
